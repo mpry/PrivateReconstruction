@@ -9,9 +9,7 @@ We’ll model this as follows: there is a sequence x of secret bits, x1, …, xn
 that the ith user clicked on the ad. The mechanism for releasing the running counter works as follows:
 At each time step i = 1, 2, ..., n, select a uniformly random bit Zi (independently of previous ones) and
 output:
-�! = ∑ �"
-!
-"#$ + �!
+![formula](https://user-images.githubusercontent.com/47434149/140687818-7232ac8e-65ed-4988-8abe-f17abc30f9a7.png)
 (In other words, at each step, we flip a coin to decide whether we should add one fake person to the
 counter or not).
 How well can one recover the vector x from the sequence of outputs �'? The answer depends on what
